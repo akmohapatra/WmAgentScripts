@@ -6,6 +6,7 @@ try:
 except ImportError:
     import simplejson as json
 
+# Main
 def main():
 	url='cmsweb.cern.ch'
         d=open('/afs/cern.ch/user/c/cmst2/mc/config/disktape.cfg').read()
