@@ -50,6 +50,7 @@ def human(n):
 	letter = {1:'k',2:'M',3:'G',4:'T'}
 	return ("%.1f%s" % (value,letter[order])).replace(".0", "")
 
+# Main
 def main():
 	global blacklist
 	mcdir = '/afs/cern.ch/user/c/cmst2/www/mc'
